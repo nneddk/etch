@@ -24,12 +24,10 @@ eraser.onclick = function(){
     if (colorMode !== 1){
         colorMode = 1;
         this.style.border = 'solid';
-        console.log(colorMode);
         rainbow.style.border = 'none';
     }else{
         colorMode = 0;
         this.style.border = 'none';
-        console.log(colorMode);
     }
 }
 const rainbow = document.getElementById('rainbow-mode');
@@ -38,11 +36,9 @@ rainbow.onclick = function(){
         colorMode = 2;
         this.style.border = 'solid';
         eraser.style.border = 'none';
-        console.log(colorMode);
     }else{
         colorMode = 0;
         this.style.border = 'none';
-        console.log(colorMode);
     }
 }
 function randomColor() {
