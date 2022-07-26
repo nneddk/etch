@@ -56,7 +56,6 @@ function color(p){
             p.style.backgroundColor = 'rgb('+randomColor()+', '+randomColor()+', '+randomColor()+')';
             break;
     }
-    
 }
 function fillCanvas(){
     const drawingSpaceHolder = document.getElementById('drawing-space-holder');  
@@ -86,5 +85,3 @@ function fillCanvas(){
     }
 }
 fillCanvas();
-    
-    
