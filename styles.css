@@ -1,5 +1,17 @@
 body{
     background-image: linear-gradient(black, aqua);
+    margin: 0;
+}
+#page-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;  
+    color:whitesmoke;
+    font-size: 7vmin;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
 }
 #main-page{
     display:flex;
@@ -92,5 +104,11 @@ body{
     color: whitesmoke;
     text-align: center;
     font-size: 2vmin;
-
+}
+#footer{
+    background-color: black;
+}
+#footer a{
+    color: whitesmoke;
+   text-decoration: none;
 }
